@@ -1,0 +1,9 @@
+local string = definition --you can define somthing like:
+local player = game.Players.LocalPlayer
+--EZ!
+local instancecmd = Instance.new("Hint", workspace)
+--With the Instance.new command you can easily create the things lol
+instancecmd.Name = "HelloImAKnstanceAndGettingDefinedWithStuff" --Names the Created Hint into another thing
+instancecmd.Text = "MOYAI Text for anything" --because the hint is something like a TextLabel you can write a text in it!
+instancecmd.BackgroundColor3 = Color3.new(0, 0, 0)
+instancecmd.Visible = true 
